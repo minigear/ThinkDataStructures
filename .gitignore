@@ -10,3 +10,28 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Awareness
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Computer_science
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Concurrent_computing
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Consciousness
+/intellij/code/.gradle/8.3/executionHistory/executionHistory.bin
+/intellij/code/.gradle/file-system.probe
+/intellij/code/.gradle/8.3/fileHashes/fileHashes.bin
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Java_(programming_language)
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Knowledge
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Mathematics
+/intellij/solutions/.gradle/8.3/checksums/md5-checksums.bin
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Modern_philosophy
+/intellij/code/build/tmp/compileJava/compileTransaction/stash-dir/MyArrayList.class.uniqueId0
+/intellij/code/build/tmp/compileJava/compileTransaction/stash-dir/MyArrayListTest.class.uniqueId1
+/intellij/solutions/build/tmp/compileJava/compileTransaction/stash-dir/MySelectionSort.class.uniqueId0
+/intellij/code/.gradle/buildOutputCleanup/outputFiles.bin
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Philosophy
+/intellij/code/build/tmp/compileJava/previous-compilation-data.bin
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Programming_language
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Property_(philosophy)
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Quality_(philosophy)
+/intellij/code/build/resources/main/redis_url.txt
+/intellij/code/.gradle/8.3/fileHashes/resourceHashesCache.bin
+/intellij/code/build/resources/main/en.wikipedia.org/wiki/Science
+/intellij/solutions/.gradle/8.3/checksums/sha1-checksums.bin
