@@ -44,8 +44,8 @@ public class MyArrayList<T> implements List<T> {
     @Override
     public boolean add(T element) {
         // TODO: FILL THIS IN!
-        if (size == array.length) {
-            array = Arrays.copyOf(array, size * 2);
+        if (size >= array.length) {
+            array = Arrays.copyOf(array, array.length * 2);
         }
 
         array[size] = element;
@@ -107,10 +107,14 @@ public class MyArrayList<T> implements List<T> {
 
     @Override
     public T get(int index) {
+        checkIndex(index);
+        return array[index];
+    }
+
+    private void checkIndex(int index) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException();
         }
-        return array[index];
     }
 
     @Override
@@ -219,9 +223,7 @@ public class MyArrayList<T> implements List<T> {
     @Override
     public T set(int index, T element) {
         // TODO: FILL THIS IN!
-        if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException();
-        }
+        checkIndex(index);
 
         T changedElement = array[index];
         array[index] = element;
@@ -238,6 +240,7 @@ public class MyArrayList<T> implements List<T> {
         if (fromIndex < 0 || toIndex >= size || fromIndex > toIndex) {
             throw new IndexOutOfBoundsException();
         }
+
         T[] copy = Arrays.copyOfRange(array, fromIndex, toIndex);
         return Arrays.asList(copy);
     }
